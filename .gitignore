@@ -1,0 +1,18 @@
+# Зависимости PHP
+vendor/
+
+# Переменные окружения (секреты — не коммитим)
+.env
+
+# Логи и временные файлы
+app/storage/logs/*.log
+app/storage/framework/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# ОС
+.DS_Store
+Thumbs.db
